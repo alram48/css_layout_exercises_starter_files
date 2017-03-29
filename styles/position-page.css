@@ -1,9 +1,30 @@
 nav {
 background-color: gray;
 text-align: left;
-position: relative;
+position: fixed;
 padding-left: 10px;
-bottom: 30px
+left: 0;
+right: 0;
+top: 0;
+
+}
+
+nav img {
+border-radius: 50%
+
+}
+
+nav ul {
+position: fixed;
+right: 25px;
+top: 5px;
+
+}
+
+nav ul li {
+display: inline-block;
+margin-left: 50px;
+
 }
 
 .boxed {
@@ -12,12 +33,12 @@ border-style: dotted;
 border-color: green;
 width: 600px;
 height: 300px;
-position: absolute;
+position: relative;
 padding: 10px;
 top: 50%;
-left: 50%;
-margin-left: -280px;
-margin-top: -100px;
+
+margin: 0 auto;
+margin-top: 150px;
 
 
 }
@@ -26,9 +47,8 @@ margin-top: -100px;
 	width: 200px;
 	height: 200px;
 	position: absolute;
-	top: 300px;
-	right: 100px;
-	left: 200px;
+	top: 0px;
+	left: 0px;
 
 }
 
@@ -36,9 +56,8 @@ margin-top: -100px;
  width: 200px;
  height: 200px;
  position: absolute;
- top: 400px;
- right: 100px;
- left: 700px;
+ right: 0px;
+ bottom: 0px;
  }
 html { 
   background: url(file:///Users/alramirez/thinkful_projects/css_layout_exercises_starter_files/images/outerspace_landscape.jpeg) no-repeat center center fixed; 
