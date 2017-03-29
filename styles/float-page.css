@@ -11,7 +11,7 @@ main {
   margin-right: auto;
 }
 
-medium {
+.medium {
   width: 300px;
 }
 
@@ -27,5 +27,5 @@ medium {
 
 .right {
   float: right;
-  margin-left: -50px;
+  margin-left: 15px;
 }
