@@ -11,12 +11,21 @@ main {
   margin-right: auto;
 }
 
-p {
-float: right;
-
+medium {
+  width: 300px;
 }
 
-img {
+.left, .right {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 
-	float: right;
+.left {
+  float: left;
+  margin-right: 15px;
+}
+
+.right {
+  float: right;
+  margin-left: -50px;
 }
