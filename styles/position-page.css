@@ -16,14 +16,14 @@ border-radius: 50%
 
 nav ul {
 position: fixed;
-right: 25px;
+right: 800px;
 top: 5px;
 
 }
 
 nav ul li {
 display: inline-block;
-margin-left: 50px;
+margin-left: 60px;
 
 }
 
@@ -36,19 +36,23 @@ height: 300px;
 position: relative;
 padding: 10px;
 top: 50%;
-
 margin: 0 auto;
-margin-top: 150px;
+margin-top: 315px;
 
 
 }
 
 .spacecat {
-	width: 200px;
-	height: 200px;
+	width: 150px;
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: -100px;
+	left: -100px;
+
+}
+
+.spacecat img {
+	width: 150px;
+
 
 }
 
@@ -56,9 +60,16 @@ margin-top: 150px;
  width: 200px;
  height: 200px;
  position: absolute;
- right: 0px;
- bottom: 0px;
- }
+ right: -117px;
+ bottom: -101px;
+}
+
+.spacedog img {
+	width: 150px;
+
+}
+ 
+
 html { 
   background: url(file:///Users/alramirez/thinkful_projects/css_layout_exercises_starter_files/images/outerspace_landscape.jpeg) no-repeat center center fixed; 
   -webkit-background-size: cover;
