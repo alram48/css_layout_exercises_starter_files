@@ -2,28 +2,33 @@ nav {
 background-color: gray;
 text-align: left;
 position: fixed;
-padding-left: 10px;
+padding-left: 60px;
+padding-right: 60px;
 left: 0;
 right: 0;
 top: 0;
+height: 60px;
 
 }
 
 nav img {
-border-radius: 50%
+border-radius: 50%;
+height: 60px;
+
 
 }
 
 nav ul {
 position: fixed;
-right: 800px;
+margin-left: 20px;
 top: 5px;
 
 }
 
 nav ul li {
 display: inline-block;
-margin-left: 60px;
+margin-left: 5px;
+
 
 }
 
@@ -71,7 +76,7 @@ margin-top: 315px;
  
 
 html { 
-  background: url(file:///Users/alramirez/thinkful_projects/css_layout_exercises_starter_files/images/outerspace_landscape.jpeg) no-repeat center center fixed; 
+  background: url(../images/outerspace_landscape.jpeg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
