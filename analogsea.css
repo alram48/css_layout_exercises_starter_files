@@ -1,0 +1,99 @@
+img {
+height: 35px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+
+
+}
+
+h1 {
+text-align: center;
+
+
+}
+
+body {
+	background-color: #87CEEB;
+	
+}
+
+.signup {
+background-color: white;
+width: 400px;
+padding-left: 40px;
+padding-right: 40px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+padding-bottom: 200px;
+
+}
+
+
+.email {
+padding-bottom: 10px;
+font-weight: bold;
+padding-top: 5px;
+width: 320px;
+height: 55px;
+border: 2px;
+padding: 15px;
+margin-right: auto;
+margin-left: auto;
+display: block;
+
+}
+
+.password {
+
+padding-bottom: 15px;
+width: 320px;
+height: 55px;
+border: 2px;
+padding: 15px;
+margin-right: auto;
+margin-left: auto;
+display: block;
+font-weight: bold;
+
+
+
+}
+
+.sbutton {
+margin-left: auto;
+margin-right: auto;
+display: block;
+width: 320px;
+height: 55px;
+border: 2px;
+padding: 15px;
+background-color: #87CEEB;
+font-weight: bold;
+font-size: 25px;
+
+
+}
+
+.sbutton:hover {
+	background: #228b22;
+	padding-top: 10px;
+
+
+}
+
+.fpassword {
+	text-align: center;
+
+
+
+}
+
+.bottom {
+text-align: center;
+
+}
+
+
+
